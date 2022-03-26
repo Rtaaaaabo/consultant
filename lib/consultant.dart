@@ -10,19 +10,16 @@ class ConsultantPage extends StatefulWidget {
 }
 
 class _ConsultantPageState extends State<ConsultantPage> {
-
   List<ConsultantItem> _consultItem = [];
 
   void fetchConsultantItem() async {
-    final response = await http.get(Uri.parse())
+    // final response = await http.get(Uri.parse())
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('相談')
-      ),
+      appBar: AppBar(title: const Text('相談')),
     );
   }
 }
